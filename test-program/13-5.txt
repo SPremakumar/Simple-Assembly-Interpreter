@@ -1,1 +1,13 @@
-
+00 49 61 # Var1
+01 49 62 # Var2
+02 40 61 # DEBUT LOOP - Charge la var1 dans l'A 
+03 12 10 # Si A = 0 alors va à l'AD 10 (fin)
+04 21 01 # Décrementation [A(=Var1) - 1]
+05 48 61 # Enregistre le reslt dans la Var1 
+06 40 63 # Charge le contenu de l'AD 63 (=0) dans l'A
+07 60 62 # Additionne VAR 2
+08 48 63 # Range le resultat dans l'AD 63
+09 10 02 # FIN LOOP
+10 40 63 # LOAD
+11 61 63 # SUB 
+12 41 63 # Affiche le rst

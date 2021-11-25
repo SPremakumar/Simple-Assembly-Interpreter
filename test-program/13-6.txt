@@ -1,0 +1,23 @@
+00 49 61 # DIVIDENDE (var A)
+03 49 62 # DIVISEUR (var B)
+06 40 61 # DEBUT DES CALCULS - Charge la var A dans Acc
+07 12 15 # Tant que A > 0 : ENDLOOP.1
+08 11 18 # Quand -(A) : ENDLOOP.2
+09 61 62 # VarA - VarB 
+10 48 61 # Enregistre le rslt dans le 61
+11 40 63 # Charge le Rslt dans A
+12 20 01 # +1 
+13 48 63 # Enregistre le rslt dans 0x63
+14 10 06 # JUMP : BOUCLE
+15 41 63 # ENDLOOP.1 : Affiche le résultat de x63 (=Quotient1)
+16 41 61 # Affiche x61 (=Reste1)
+17 10 26 # FIN 
+18 40 63 # ENDLOOP.2 : Charge le contenu de x63 dans A
+19 21 01 # -1
+20 48 63 # Enregistre le rslt dans 0x63
+21 41 63 # Affiche le résultat =Quotient2
+22 40 61 # Charge le contenu de x61 dans A
+23 60 62 # varA + rslt
+24 48 61 # Enregistre le rslt dans 0x61
+25 41 61 # Affiche le resultat (=Reste2)
+26 00 00 # FIN
