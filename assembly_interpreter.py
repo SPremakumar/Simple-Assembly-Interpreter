@@ -4,7 +4,6 @@
 #*******************************************************
 # Nom.........: assembly_interpreter.py
 # Rôle........: Pour faire tourner l'ordinateur en papier
-# Auteur......: Samya PREMAKUMAR
 # Version.....: V2 du 19/05/2020
 # Licence.....: réalisé dans le cadre du cours de d'architecture de l'ordinateur
 # Usgae - Avant : chmod 756 operation.py assembly_interpreter.py
